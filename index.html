@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="style.css" />
 
 		<!-- Bootstrap CSS -->
+		 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -21,15 +22,44 @@
 	</head>
 	<body>
 		<!-- -----------------------navbar---------------------------------- -->
-		<nav class="navbar navbar-light" style="background-color: #da8f6d8a">
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #cf784f2a">
 			<img
 				class="d-none d-sm-block"
 				src="https://images.macrumors.com/t/2sqZOjKhR3KuLrXiViOzRZq5Eds=/400x0/filters:quality(90)/article-new/2020/12/apple-music-logo.jpg?lossy"
 				alt=""
-				style="width: 100px; border-radius: 30px; opacity: 0.7"
+				style="width: 100px; border-radius: 30px; opacity: 0.7;margin-right: 4rem;"
 			/>
-			<a class="navbar-brand" href="#" style="font-size: 40px;">Music Nation</a>
-
+  <a class="navbar-brand d-none d-lg-block" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active px-5">
+        <a class="nav-link nav-text " href="#">All Songs <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item px-5">
+        <a class="nav-link nav-text" href="#">My playlist</a>
+      </li>
+      <li class="nav-item px-5">
+        <a class="nav-link nav-text" href="#">Favorites</a>
+      </li>
+      <li class="nav-item dropdown px-5">
+        <a class="nav-link nav-text dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink " style="background-color: rgba(157, 149, 179, 0.226); border-radius: 10px; padding: 10px;">
+          <a class="dropdown-item" href="#">Spanish songs</a>
+          <a class="dropdown-item" href="#">English songs</a>
+          <a class="dropdown-item" href="#">Hindi songs</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+		<!-- <nav class="navbar navbar-light navbar-lg-expand" style="background-color: #cf784f52">
+			
+			
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -57,25 +87,19 @@
 					<li class="nav-item">
 						<a class="nav-link nav-text" href="#mostlyplayed">Mostly played</a>
 					</li>
-					<!-- <li class="nav-item">
-						<a
-							class="nav-link nav-text disabled"
-							href="#"
-							tabindex="-1"
-							aria-disabled="true"
-							>Mostly played</a
-						>
-					</li> -->
+					
 				</ul>
 			</div>
-		</nav>
+		</nav> -->
+		<div class="container-fluid">
+		<h2 style="text-align: center ;padding: 10px">Music Nation</h2></div>
 		<section class="aboutme">
 			<div class="container">
 				<div class="row py-2">
 					<div class="col-12 col-lg-10 col-xl-6 py-5">
 						<div class="about-details">
 							<p>
-								This is Manish elaganti,for me,Music expresses feeling and
+								This is Manish elaganti for me Music expresses feeling and
 								thought, without language.It was below and before speech, and it
 								is above and beyond all words.i listen to lot of music in my
 								free time, I list my favorite albums and most listened. Music
@@ -565,6 +589,15 @@
 </div>
 		</section>
 		<footer>
+			<div class="social-menu">
+  <ul class="footer-icons">
+    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook icon"></i></a></li>
+    <li><a href="https://www.twitter.com/"><i class="fa fa-twitter icon"></i></a></li>
+    <li><a href="https://www.instagram.com/"><i class="fa fa-instagram icon"></i></a></li>
+    <li><a href="https://github.com/Manishreddy619/m1_day8events" target="_blank"><i class="fa fa-github icon"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/manish-elaganti-8008541aa/"><i class="fa fa-linkedin icon"></i></a></li>
+  </ul>
+</div>
 			<p>all rights reserved by manish &copy; 2021 Music nation </p>
 		</footer>
 		<script

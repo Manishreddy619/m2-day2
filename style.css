@@ -11,6 +11,7 @@ body {
 		#ffcc70 100%
 	);
 }
+
 .nav-text {
 	font-size: 1.2rem !important;
 	color: rgb(15, 13, 11) !important;
@@ -27,6 +28,7 @@ body {
 .cardhover {
 	cursor: pointer;
 	transition: all 0.2s;
+	border-radius: 10px;
 }
 .cardhover:hover {
 	transform: scale(1.02);
@@ -39,27 +41,34 @@ img:hover {
 	opacity: 1;
 }
 footer {
-	margin-top: 40px;
 	text-align: center;
-	color: white;
+	color: rgb(15, 10, 10);
+	background-color: rgba(204, 195, 184, 0.185);
 }
-/* <!--
-ASSIGNMENT TOPIC
-You are creating a website to showcase your favourite music albums.
-In this page you will have a short biography section of yourself, and the top albums of your life, 
-the worst album you ever listened to and everything related to the music you love.
+ul {
+	font-size: 1.4rem;
+}
+li {
+	list-style: none;
+}
+.footer-icons {
+	display: flex;
+}
 
-ASSIGNMENT RULES
-- The project must be pushed to a new repository and linked in EduFlow by the end of the day.
-- You can google / use StackOverflow BUT we suggest you to use just the material provided and documentation.
-- To test the page, open it with your browser and inspect it with developer tools / device emulator.
-- Use Bootstrap4.6 classes to create the page.
-- Use containers, rows and cols in order to achieve a great responsive layout.
-
-NOTE:
-Even the most experienced designers need inspiration.
-Spend some time surfing the web researching the best way of representing the albums you love.
-Could be the Amazon way, the Spotify or Apple music way or any other music collection out there.
-
-HINT: Manage your time in order to finish the structure and responsiveness before focusing on details.
---> */
+.icon {
+	color: rgba(12, 9, 12, 0.781);
+	padding: 30px;
+	transition: all 0.2s;
+}
+.icon:hover {
+	opacity: 1;
+	color: rgb(177, 52, 145);
+	background-color: rgba(245, 222, 179, 0.411);
+	border-radius: 50%;
+	font-size: 20px;
+	transition: all 0.3s;
+}
+.social-menu {
+	display: flex;
+	justify-content: space-evenly;
+}
