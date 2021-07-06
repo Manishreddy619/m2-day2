@@ -19,6 +19,19 @@ body {
 	padding: 3px;
 	background-color: rgba(86, 163, 199, 0.479);
 }
+#mycollection,
+#mostlyplayed {
+	background-color: rgba(86, 163, 199, 0.479);
+}
+.cardhover {
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.cardhover:hover {
+	transform: scale(1.02);
+	transition: all 0.5s;
+}
+
 /* <!--
 ASSIGNMENT TOPIC
 You are creating a website to showcase your favourite music albums.
