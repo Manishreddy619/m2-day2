@@ -29,6 +29,7 @@ body {
 	cursor: pointer;
 	transition: all 0.2s;
 	border-radius: 10px;
+	background-color: yellow;
 }
 .cardhover:hover {
 	transform: scale(1.02);
